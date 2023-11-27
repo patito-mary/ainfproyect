@@ -1,5 +1,6 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>120</x><y>150</y><w>100</w><h>30</h></coordinates><panel_attributes>Galaxy</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>130</y><w>100</w><h>30</h></coordinates><panel_attributes>DM halo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>110</y><w>100</w><h>30</h></coordinates><panel_attributes>Box (Universe)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>100</y><w>170</w><h>130</h></coordinates><panel_attributes>Box
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>DM halo management system
+</help_text><element><id>UMLClass</id><coordinates><x>40</x><y>160</y><w>100</w><h>30</h></coordinates><panel_attributes>Galaxy</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>170</y><w>100</w><h>30</h></coordinates><panel_attributes>DM halo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>80</y><w>100</w><h>30</h></coordinates><panel_attributes>Box (Universe)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>50</y><w>170</w><h>130</h></coordinates><panel_attributes>Box
 {innerclass
 Universe
 innerclass}
@@ -11,4 +12,43 @@ Galaxies
 particles
 innerclass}
 innerclass}
-</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>30</x><y>20</y><w>160</w><h>70</h></coordinates><panel_attributes>DM halo management 
+system
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>220</y><w>210</w><h>440</h></coordinates><panel_attributes>DM halo
+--
+- id1: 
+- hostHalo2: 
+- numSubStruct3:
+- M2004:
+- npart5:
+- Xc6:
+- Yc7:
+- Zc8:
+- VXc9:
+- VYc10:
+- VZc11:
+- Rmax13:
+- r214: ?
+- mbp_offset15: ??
+- com_offset16:
+- Vmax17:
+- v_esc18:
+- sigV19:
+- lambda20:
+- Lx22:
+- Ly23:
+- Lz24:
+- cNFW25:
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Understand the interaction 
+between somes parameters</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>440</x><y>350</y><w>250</w><h>130</h></coordinates><panel_attributes>Cuales seran los que necesitaremos
+a priori?
+1. id (1)
+2. Vmax (17)
+3. sigV (19)
+4. v_esc (18)
+5. M200 (4)
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element></diagram>
