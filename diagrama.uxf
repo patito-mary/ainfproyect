@@ -44,11 +44,35 @@ bg=blue</panel_attributes><additional_attributes></additional_attributes></eleme
 /+AbstractOperation()/
 --
 Understand the interaction 
-between somes parameters</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>440</x><y>350</y><w>250</w><h>130</h></coordinates><panel_attributes>Cuales seran los que necesitaremos
+between somes parameters</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>440</x><y>350</y><w>250</w><h>100</h></coordinates><panel_attributes>Cuales seran los que necesitaremos
 a priori?
 1. id (1)
-2. Vmax (17)
-3. sigV (19)
-4. v_esc (18)
-5. M200 (4)
-bg=cyan</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+2. hostHalo (2)
+3. numSubStruct (3)
+4. M200 (4)
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>90</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;read_files&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>290</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Kinematics&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>260</y><w>150</w><h>40</h></coordinates><panel_attributes>Tener cuidado con 
+las columnas</panel_attributes><additional_attributes></additional_attributes></element></diagram>
