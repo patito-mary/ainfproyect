@@ -4,8 +4,17 @@ from matplotlib import rcParams, colors, ticker, cm
 
 #leer archivo:
 class read_file: 
+    """Class to charge things and access to the propiertes via object type
+    """
     
     def __init__(self, path, file, columns=None):
+        """_summary_
+
+        Args:
+            path (_type_): path to the folder of data
+            file (_type_): name of the file with the data
+            columns (_type_, optional): columns that you want to charge. Defaults to None.
+        """
         if columns is not None:
             self.cols = columns
         else:
@@ -17,9 +26,10 @@ class read_file:
         if self.file == "*.hdf5":
             print("No se ha hecho esta parte")
         else:
-            self.data = np.genfromtxt(str(self.path+self.file), usecols = self.cols)#, names=True)   
+            self.data = np.genfromtxt(str(self.path+self.file), usecols = self.cols, unpack=True)#, names=True)   
             #self.data = np.array([list(row) for row in data])#para poder hacer slicing
-            
+
+
     def halo_info(self, index, info=False): 
         self.hinfo = self.data[index]
         return(self.hinfo)
@@ -27,7 +37,7 @@ class read_file:
 #cinematica entre DOS halos
 class kinetic:                                   
     
-    def __init__(self, halo1, halo2):                       #halo1 y halo22 son objetos de read_file (halo_info)  
+    def __init__(self, halo1, halo2):          #halo1 y halo22 son objetos de read_file (halo_info)  
         self.halo1 = halo1; self.halo2 = halo2     
 
     def distance(self): 
@@ -38,43 +48,5 @@ class kinetic:
         #return(np.linalg.norm(halo1-halo2))
     
 
-#=======================================================================================================
-#if __name__ == '__main__':
-    path = 'DATA/'; file ='sussing_125.z0.000.AHF_halos'
-    sussing_125 = read_file(path, file)
-
-    #histograma 2D del N. estructuras vs la masa:
-    datos = sussing_125.data[sussing_125.data[:,0] == 0] 
-
-    ejeX = datos[:,2]; ejeY = datos[:,1]   #Solo datos positivos
-    nz = (ejeX>0)&(ejeY>0)
-
-    H, xedges, yedges = np.histogram2d(np.log10(ejeX[nz]), 
-                                       ejeY[nz], bins=100)
-    
-    #enmascara el histograma (centra cada bin)
-    H = np.ma.masked_where(H<=0, H)
-    x = (xedges[1:]+xedges[:-1])/2
-    y = (yedges[1:]+yedges[:-1])/2
-
-    #Escritura de archivo, primero H y luego los edges: 
-    np.savetxt('out_data/H_data.csv', H.flatten(), delimiter=',', fmt='%f', header='H')
-    np.savetxt('out_data/edges_data.csv', np.column_stack((xedges, yedges)), delimiter=',', fmt='%f', header='xedges,yedges')
-
-    # Grafico con bines: 
-    fig, ax = plt.subplots(1,1, figsize=(4, 4))
-    X,Y = np.meshgrid(x,y)
-    hist2D = H.T/(xedges[1]-xedges[0])/(yedges[1]-yedges[0])
-    
-    cs = ax.imshow(H.T, origin="lower", cmap=cm.viridis, 
-                   norm=colors.LogNorm(vmin=1),
-                   extent=[xedges[0], xedges[-1], yedges[0],yedges[-1]], 
-                   aspect='auto', interpolation='nearest') 
-
-    plt.yscale('log'); 
-    ax.set_xlabel(r'log$_{10}$(M$_{halo}$[$M_{0}h^{-1}$])')
-    ax.set_ylabel("Number of subsetructures")
-    plt.tight_layout()
-    plt.savefig("plot/hist2D.pdf")
 
 
