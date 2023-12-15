@@ -1,6 +1,6 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>DM halo management system
-</help_text><element><id>UMLClass</id><coordinates><x>0</x><y>150</y><w>100</w><h>30</h></coordinates><panel_attributes>Galaxy</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>40</y><w>100</w><h>30</h></coordinates><panel_attributes>&lt;&lt;DM halo&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>110</y><w>100</w><h>30</h></coordinates><panel_attributes>Box (Universe)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>20</y><w>170</w><h>130</h></coordinates><panel_attributes>Box
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>DM halo management system
+</help_text><element><id>UMLClass</id><coordinates><x>9</x><y>132</y><w>90</w><h>27</h></coordinates><panel_attributes>Galaxy</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>69</y><w>90</w><h>27</h></coordinates><panel_attributes>&lt;&lt;DM halo&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>96</y><w>90</w><h>27</h></coordinates><panel_attributes>Box (Universe)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>198</x><y>51</y><w>153</w><h>117</h></coordinates><panel_attributes>Box
 {innerclass
 Universe
 innerclass}
@@ -12,9 +12,9 @@ Galaxies
 particles
 innerclass}
 innerclass}
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>30</x><y>20</y><w>150</w><h>40</h></coordinates><panel_attributes>DM halo management 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>9</x><y>51</y><w>135</w><h>36</h></coordinates><panel_attributes>DM halo management 
 system
-bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>190</y><w>210</w><h>440</h></coordinates><panel_attributes>DM halo
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>204</y><w>189</w><h>396</h></coordinates><panel_attributes>DM halo
 --
 - id1: 
 - hostHalo2: 
@@ -44,13 +44,13 @@ bg=blue</panel_attributes><additional_attributes></additional_attributes></eleme
 /+AbstractOperation()/
 --
 Understand the interaction 
-between somes parameters</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>230</x><y>160</y><w>250</w><h>100</h></coordinates><panel_attributes>Cuales seran los que necesitaremos
+between somes parameters</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>198</x><y>177</y><w>162</w><h>90</h></coordinates><panel_attributes>Cuales seran los que necesitaremos
 a priori?
 1. id (1)
 2. hostHalo (2)
 3. numSubStruct (3)
 4. M200 (4)
-bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>130</y><w>160</w><h>140</h></coordinates><panel_attributes>read_DMfiles
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>432</x><y>150</y><w>144</w><h>126</h></coordinates><panel_attributes>read_DMfiles
 --
 - file : string
 - columns : int
@@ -59,27 +59,27 @@ bg=cyan</panel_attributes><additional_attributes></additional_attributes></eleme
 columns=None)
 -read(self)
 -halo_index(self, index, 
-info=False)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>450</y><w>190</w><h>80</h></coordinates><panel_attributes>kinematics
+info=False)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>414</x><y>438</y><w>171</w><h>72</h></coordinates><panel_attributes>kinematics
 --
 - __init__(self, halo1, halo2)
 -distance(self)
 -velocity()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>270</y><w>150</w><h>40</h></coordinates><panel_attributes>Tener cuidado con 
-las columnas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>0</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Files&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>198</x><y>276</y><w>135</w><h>36</h></coordinates><panel_attributes>Tener cuidado con 
+las columnas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>522</x><y>33</y><w>189</w><h>81</h></coordinates><panel_attributes>&lt;&lt;Files&gt;&gt;
 --
 + path : string
 - id : int
 --
 -__init__(self, path)
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>80</y><w>110</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>60</y><w>80</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;70</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>260</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>330</y><w>190</w><h>80</h></coordinates><panel_attributes>&lt;&lt;propierties&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>105</y><w>99</w><h>63</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>87</y><w>72</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;70</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>267</y><w>27</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>414</x><y>330</y><w>171</w><h>72</h></coordinates><panel_attributes>&lt;&lt;propierties&gt;&gt;
 --
 - __init__(self, halo1, ..., halon)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>400</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>560</y><w>190</w><h>80</h></coordinates><panel_attributes>masses
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>393</y><w>27</w><h>63</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>414</x><y>537</y><w>171</w><h>72</h></coordinates><panel_attributes>masses
 --
 - __init__(self, halo1, halo2)
 -minormerger(halo1, halo2)
 -majormerger(halo1,halo2)
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>520</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>501</y><w>27</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element></diagram>

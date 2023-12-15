@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1702173534 "c:/Users/patito/gitcosas/ainfproyect/AA/aanda.tex" "build/aanda.pdf" "aanda" 1702173538 2
+["pdflatex"] 1702521021 "c:/Users/patito/gitcosas/ainfproyect/AA/aanda.tex" "build/aanda.pdf" "aanda" 1702521023 0
   "C:/Users/patito/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702150912 82560 ef239c2cb0a12117bb5525d1036b4375 ""
   "C:/Users/patito/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1702146503 24213744 c9ed9c894f41f92c3a861593390695ee ""
   "C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -113,9 +113,9 @@
   "C:/Users/patito/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsyc.fd" 977342760 310 4b5d6fe830337242ef847b3bff48ba21 ""
   "C:/Users/patito/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "aa.cls" 1702156654 63263 f72bc882d377d24b944742febd5e720d ""
-  "aanda.tex" 1702173527 33578 909467c55e0852e8d1bf54483e9577d9 ""
-  "build/aanda.aux" 1702173533 1891 c24fff93c8b102ba2c5ff57c5720bce3 "pdflatex"
-  "c:/Users/patito/gitcosas/ainfproyect/AA/aanda.tex" 1702173527 33578 909467c55e0852e8d1bf54483e9577d9 ""
+  "aanda.tex" 1702521020 33573 267d64ac19d335ae87ab8319ff44b542 ""
+  "build/aanda.aux" 1702521022 1891 c24fff93c8b102ba2c5ff57c5720bce3 "pdflatex"
+  "c:/Users/patito/gitcosas/ainfproyect/AA/aanda.tex" 1702521020 33573 267d64ac19d335ae87ab8319ff44b542 ""
   (generated)
   "build/aanda.aux"
   "build/aanda.log"
