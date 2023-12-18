@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  13 DEC 2023 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  18 DEC 2023 01:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -563,11 +563,15 @@ LaTeX Font Info:    Font shape `T1/txss/b/n' in size <10.95> not available
 (Font)              Font shape `T1/txss/bx/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 10.40245pt on input line 67.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 74.
+ (C:\Users\patito\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 124.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 103.
  [1{C:/Users/patito/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
-] [2] [3] (c:\Users\patito\gitcosas\ainfproyect\AA\build\aanda.aux
+] [2] [3] [4] (c:\Users\patito\gitcosas\ainfproyect\AA\build\aanda.aux
 
 Package natbib Warning: Citation `baker' multiply defined.
 
@@ -597,17 +601,17 @@ Package natbib Warning: Citation `zheng' multiply defined.
 
 ) ) 
 Here is how much of TeX's memory you used:
- 7256 strings out of 474586
- 109073 string characters out of 5745209
- 1945558 words of memory out of 5000000
- 29280 multiletter control sequences out of 15000+600000
- 632752 words of font info for 145 fonts, out of 8000000 for 9000
+ 7295 strings out of 474586
+ 109689 string characters out of 5745209
+ 1946558 words of memory out of 5000000
+ 29315 multiletter control sequences out of 15000+600000
+ 633718 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,93p,343b,394s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txex.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\patito\gitcosas\ainfproyect\AA\build\aanda.pdf (3 pages, 106782 bytes).
+ 87i,12n,93p,901b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txex.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/patito/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:\Users\patito\gitcosas\ainfproyect\AA\build\aanda.pdf (4 pages, 112619 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
